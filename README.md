@@ -4,7 +4,7 @@ A 8 puzzle solver, that use AI to find the optimized moves to solve the puzzle
 
 ## Objective
 
-Build a artificial inteligence capable of solve the n-puzzle game with less movements possible
+Build a artificial inteligence capable of solve the 8-puzzle game with less movements possible
 
 ## Solutions
 
