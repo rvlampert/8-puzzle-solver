@@ -12,7 +12,7 @@ For this project, we use 4 different solutions, using  the WIDTH search (BFS), D
 
 ## How to run
 
-Create a virtual environment, use ```make install-dependencies``` command to install the python dependencies, then use ```make run <board>``` to run the program
+Create a virtual environment, use ```make install-dependencies``` command to install the python dependencies, then use ```make run board=<board>``` to run the program
 
 ## Board
 

@@ -15,7 +15,7 @@ def bfs(state, config):
         for node in solution:
             moves.append(node.move)
         return (moves, solution)
-    return None
+    return (None, None)
 
 def dfs(state, config):
     """
@@ -32,7 +32,7 @@ def dfs(state, config):
         for node in solution:
             moves.append(node.move)
         return (moves, solution)
-    return None
+    return (None, None)
 
 def astar_hamming(state, config):
     """
@@ -49,7 +49,7 @@ def astar_hamming(state, config):
         for node in solution:
             moves.append(node.move)
         return (moves, solution)
-    return None
+    return (None, None)
 
 def astar_manhattan(state, config):
     """
@@ -66,4 +66,4 @@ def astar_manhattan(state, config):
         for node in solution:
             moves.append(node.move)
         return (moves, solution)
-    return None
+    return (None, None)
